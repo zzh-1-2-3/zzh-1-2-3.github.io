@@ -1,0 +1,149 @@
+body{
+    background-image: url('image1/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+}
+#header {
+    height: 300px;
+    background-image: url('image1/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title{
+    height: 300px;
+    width:550px;
+
+}
+#title1 {
+    position: absolute;
+    display: flex;
+    
+    left: 100px;
+    
+    top: 30px;
+    margin: auto;
+    
+    color: #07181bc3;
+    font-size: 80px;
+    font-weight: 500;
+}
+#title2{
+    position: absolute;
+ 
+
+    left: 300px;
+
+    top: 120px;
+    margin: auto;
+
+    color: #000000f9;
+    font-size: 100px;
+    font-weight: 550;
+}
+
+#naver{               /**导航栏**/
+    height: 60px;
+    background-color: rgb(123, 180, 199);
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: large;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(123, 180, 199);
+    /*border: 1px solid red;
+    box-sizing: border-box;*/
+    line-height: 40px;
+    text-align: center;
+    padding: 10px 85px;
+}
+ul{
+    list-style-type: none; 
+    margin: 0px;
+    
+}
+
+#list{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 100%;
+    
+
+}
+
+#list>li{
+    float: left;
+}
+
+#list>li>ul{
+    display: none;        /* 隐藏 */
+    position: absolute;
+    margin-left: -42px;
+    float: none;
+    
+}
+
+#list>li:hover ul{
+    display: block;
+}
+
+
+a:hover {
+    background-color: burlywood;
+}
+#container{
+    height: 2100px;
+     background: linear-gradient(direction,rgb(123, 180, 199),rgb(19, 62, 250)); 
+
+}
+
+#container1{
+    height: 1000px;
+    width: 1200px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 120px;
+    top: 480px;
+}
+h3{
+    border: none;
+    margin-left: 20px;
+    margin-right: 900px;
+    
+    font-family: 150%;
+    font-size: larger;
+    font-weight: 300px;
+    text-align: left;
+    color: #f91111;
+    text-shadow: 5px 5px 5px rgb(239, 155, 44), 0px 0px 2px rgb(247, 218, 26);
+}
+.text1{
+    font-family: cursive;
+    font-size: 120%;
+    font-weight: 100;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+#container2{
+    height: 700px;
+    width: 1200px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 120px;
+    top: 1300px;
+}
+#footer {
+    font-size: 100%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 200px;
+  }

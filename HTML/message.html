@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>message</title>
+    <link rel="stylesheet" href="../CSS/message.css">
+</head>
+<body>
+    <!-- 页眉区开始 -->
+    <div id="header">
+        <div class="title">
+            <h2 id="title1">欢迎来到我的网站</h2>
+            <h2 id="title2">以下是我的留言板</h2>
+        </div>
+        <!-- 页眉区结束 -->
+        <!-- 导航栏开始 -->
+     <!-- 共5个导航选项，其中第4个中隐藏2个选项 -->
+    </div>
+    <nav id="naver">
+        <ul id="list">
+            <li>
+                <a href="./index.html">我的首页</a>
+            </li>
+            <li>
+                <a href="./intorduce.html">我的简历</a>
+            </li>
+            <li>
+                <a href="./hobby.html">我的爱好</a>
+               
+            </li>
+            <li>
+                <a href="">我的轨迹</a>
+                <ul id="ul3">
+                    <li>
+                        <a href="./hometown.html">我的家乡</a>
+                    </li>
+                    <li>
+                        <a href="./university.html">我的大学</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="./message.html">留言板</a>
+            </li>
+        </ul>
+    </nav>
+     <!-- 导航栏结束 -->
+      <!-- 留言板开始 -->
+    <center>
+        <h1>期待你的留言</h1>
+        <form action="./message.html"  method="POST">
+        <!-- 表格开始 -->
+        <table>
+        <div class="tableRow">
+         
+        <tr>
+        <td>姓名</td>
+        <td><input type="text" id="uname" name="uname"></td>
+        </tr>
+    </div>
+
+    <div class="tableRow">
+        <tr>
+        <td>年龄</td>
+        <td><input type="number" name="age"></td>
+        </tr>
+    </div>
+         
+    <div class="tableRow">
+        <tr>
+        <td>性别</td>
+        <!-- 单选 -->
+        <td>
+        <input type="radio" name="gender" value="0">男
+        <input type="radio" name="gender" value="1">女
+        </td>
+        </tr>
+    </div>
+        
+    <div class="tableRow">
+        <tr>
+        <td>爱好</td>
+        <!-- 多选 -->
+        <td>
+        <input type="checkbox" name="aihao" value="1">游戏
+        <input type="checkbox" name="aihao" value="1">文学
+        <input type="checkbox" name="aihao" value="1">音乐
+        <input type="checkbox" name="aihao" value="1">羽毛球
+        </td>
+        </tr>
+    </div>
+    <div class="tableRow">
+        <tr align="center">
+            <td colspan="2"><input type="checkbox" name="aihao" value="1">其它
+            <textarea name="" ></textarea>
+            </td>
+        </tr>
+    </div>
+
+    <div class="tableRow">
+        <tr>
+        <td>头像</td>
+        <td ><input type="file" name="picture"></td>
+        </tr>
+    </div>
+    <!-- 下拉选项 -->
+    <div class="tableRow">
+        <tr>
+            <td>好友契合度：</td>
+            <td>
+                <select >
+                    <option value="100%">100%</option>
+                    <option value="80%">80%</option>
+                    <option value="60%">60%</option>
+                    <option value="40%">40%</option>
+                    <option value="20%">20%</option>
+                    <option value="0%">0%</option>
+                </select>
+            </td>
+         
+        </tr>
+    </div>
+
+    <div class="tableRow">
+        <tr>
+            <td >联系方式：</td>
+            <td>
+                <textarea name="" ></textarea>
+            </td>
+            
+        </tr>
+    </div>
+
+    <div class="tableRow">
+        <tr align="center">
+        <td colspan="2">
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+        </td>
+        </tr>
+    </div>
+        
+      
+         
+         
+        </table>
+        <!-- 表格结束 -->
+        </form>
+        </center>
+        <!-- 留言板结束 -->
+        <footer id="footer">
+            <small>
+                &copy; 2024, By made zhu HTML<br>
+                       
+               </small>
+
+</body>
+</html>

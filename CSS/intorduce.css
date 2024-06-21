@@ -1,0 +1,192 @@
+body{
+    background-image: url('image1/3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    font-size: large;
+}
+#header{
+        height: 300px;
+        background-image: url('image1/1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+          
+}
+.title{
+    height: 300px;
+    width:550px;
+
+}
+#title1 {
+    position: absolute;
+    display: flex;
+    
+    left: 100px;
+    
+    top: 30px;
+    margin: auto;
+    
+    color: #010b0cbb;
+    font-size: 80px;
+    font-weight: 500;
+}
+#title2{
+    position: absolute;
+ 
+
+    left: 300px;
+
+    top: 120px;
+    margin: auto;
+
+    color: #000000;
+    font-size: 100px;
+    font-weight: 550;
+}
+#naver{               /**导航栏**/
+    height: 60px;
+    background-color: rgb(123, 180, 199);
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: large;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(123, 180, 199);
+    /*border: 1px solid red;
+    box-sizing: border-box;*/
+    line-height: 40px;
+    text-align: center;
+    padding: 10px 85px;
+}
+ul{
+    list-style-type: none; 
+    margin: 0px;
+    
+}
+
+#list{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 100%;
+    
+
+}
+
+#list>li{
+    float: left;
+}
+
+#list>li>ul{
+    display: none;        /* 隐藏 */
+    position: absolute;
+    margin-left: -42px;
+    float: none;
+    
+}
+
+#list>li:hover ul{
+    display: block;
+}
+
+
+a:hover {
+    background-color: burlywood;
+}
+
+#hello{
+    color: #f7f7f7; 
+    font-size: 120%; 
+    margin-left: 40px;
+    text-shadow: 5px 5px 5px rgb(11, 11, 11), 0px 0px 2px rgb(9, 9, 9);
+}
+
+.container{
+    
+    border:#CCCC00 4px solid;
+    margin:0 auto;                 /*边框颜色，大小实线*/
+    margin-top:70px;              /*顶部边框大小*/
+    margin-bottom:100px;           /*底部边框大小*/
+    width:1000px;
+    height:1200px;
+    padding:10px;
+    background-color: #f9f9f9;
+
+}
+
+.container1{
+    font-size: large;
+    height:1200px;            /*简历内容区域*/
+    width: 1000px;
+ 
+}
+table{
+    border-style: none;
+    border-color: inherit;/*表格边框样式，颜色宽度*/
+    border-width: 5px;
+    width:100%;
+    height:10%;
+    padding:5px;          /*表格边距为5px*/
+}
+.maintr1{
+    font-size: 120%;
+    background-color: #089b74;
+
+   
+    
+}
+.style1{
+    font-size: large;           /*简历字体样式*/
+    color: #2783ec;
+}                     
+
+.style2{
+    color: #2783ec; 
+    font-size: 150%;       
+}
+.style3{
+    height: 500px;       /*简历头像*/
+    width: 240px;
+}
+.style4{
+    height:50px;         /*行属性*/
+    width: 1500px;
+    
+    
+}
+.style5{
+    color: rgb(18, 18, 18); 
+    font-style: normal; 
+
+    font-weight: 400; 
+    letter-spacing: normal; 
+
+    text-align: left; 
+    text-indent: 0px; 
+
+
+}
+.style6{
+    height: 10px;           /*列属性*/
+    width: 330px;
+    font-family:sans-serif;
+    
+}
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+  }
+
+
+
+
+

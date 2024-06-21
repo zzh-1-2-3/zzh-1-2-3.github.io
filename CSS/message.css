@@ -1,0 +1,148 @@
+body{
+    height: 1300px;
+    background-image: url('image1/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    font-size: large;
+}
+/* 页眉结构开始 */
+#header{
+    height: 300px;
+    background-image: url('image1/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+          
+}
+.title{
+    height: 300px;
+    width:550px;
+
+}
+#title1 {
+    position: absolute;
+    display: flex;
+    
+    left: 100px;
+    
+    top: 30px;
+    margin: auto;
+    
+    color: #07181bc3;
+    font-size: 80px;
+    font-weight: 500;
+}
+#title2{
+    position: absolute;
+ 
+
+    left: 300px;
+
+    top: 120px;
+    margin: auto;
+
+    color: #000000f9;
+    font-size: 100px;
+    font-weight: 550;
+}
+             
+/* 页眉结构结束 */
+
+/* 导航区结构开始 */
+#naver{               /**导航栏**/
+    height: 60px;
+    background-color: rgb(123, 180, 199);
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: large;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(123, 180, 199);
+    /*border: 1px solid red;
+    box-sizing: border-box;*/
+    line-height: 40px;
+    text-align: center;
+    padding: 10px 85px;
+}
+ul{
+    list-style-type: none; 
+    margin: 0px;
+    
+}
+
+#list{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 100%;
+    
+
+}
+
+#list>li{
+    float: left;
+}
+
+#list>li>ul{
+    display: none;        /* 隐藏 */
+    position: absolute;
+    margin-left: -42px;
+    float: none;
+    
+}
+
+#list>li:hover ul{
+    display: block;
+}
+
+
+a:hover {
+    background-color: burlywood;
+}
+/* 导航区结构结束 */
+/* 表单开始 */
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #d0e0f5;
+}
+#tableRow {
+	display: table-row;
+}
+/* 文本框 */
+form textarea {
+	width: 300px;
+	height: 100px;
+}
+tr td{
+	display: table-cell;
+	vertical-align: top;
+	padding: 10px;
+}
+h1{
+    border: none;
+    margin-left:600px;
+    margin-top: 50px;
+    
+    
+    font-family: 150%;
+    font-size: larger;
+    font-weight: 300px;
+    text-align: left;
+    color: #f91111;
+    text-shadow: 5px 5px 5px rgb(239, 155, 44), 0px 0px 2px rgb(247, 218, 26);
+}
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 200px;
+  }
